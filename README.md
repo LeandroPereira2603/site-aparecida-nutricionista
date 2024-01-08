@@ -1,10 +1,17 @@
 # site-aparecida-nutricionista
  
+## Sobre o site 
 
-## Refaturar o código 
+* createElement()
+* Estrutura :if 
 
-* O campo nome - gerar mensagem de erro quando o úsuario cadastrar no campo nome números .
+> [!WARNING] 
+> **Refaturar o código**
 
-* O campo peso e altura - gerar mensagem de erro  , com entrada de números de pesso e altura , for  impossiveis de a pessoa ter .
+## **Check Lista :**
+
+- [ ] O campo nome - gerar mensagem de erro quando o úsuario cadastrar no campo nome números .
+
+- [ ]O campo peso e altura - gerar mensagem de erro  , com entrada de números de pesso e altura , for  impossiveis de a pessoa ter .
 
 
