@@ -10,8 +10,8 @@
 
 ### **Check List :**
 
-- [ ] O campo nome - gerar mensagem de erro quando o úsuario cadastrar no campo nome números .
+- [ ] Gerar mensagem de erro quando o úsuario cadastrar número no campo .
 
-- [ ] O campo peso e altura - gerar mensagem de erro  , com entrada de números de pesso e altura , for  impossiveis de a pessoa ter .
+- [ ] Gerar mensagem de erro  , com entrada de números impossiveis de a pessoa ter  no campos pesso e altura.
 
 
