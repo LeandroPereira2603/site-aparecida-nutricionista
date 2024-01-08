@@ -8,7 +8,7 @@
 > [!WARNING] 
 > **Refaturar o código**
 
-### **Check Lista :**
+### **Check List :**
 
 - [ ] O campo nome - gerar mensagem de erro quando o úsuario cadastrar no campo nome números .
 
