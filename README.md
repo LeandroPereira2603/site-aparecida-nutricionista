@@ -1,7 +1,7 @@
 # site-aparecida-nutricionista
  
 
-## Refarurar o código 
+## Refaturar o código 
 
 * O campo nome - gerar mensagem de erro quando o úsuario cadastrar no campo nome números .
 
