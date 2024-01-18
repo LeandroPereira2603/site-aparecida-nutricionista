@@ -10,7 +10,7 @@
 
 ### **Check List :**
 
-- [ ] Gerar mensagem de erro quando o úsuario cadastrar número no campo .
+- [x] Gerar mensagem de erro quando o úsuario cadastrar número no campo .
 
 - [ ] Gerar mensagem de erro  , com entrada de números impossiveis de a pessoa ter  no campo pesso e altura.
 
