@@ -75,12 +75,20 @@ function validaPaciente(paciente) {
         erros.push("A gordura não pode ser em branco");
     }
 
-    if (paciente.peso.length == 0) {
+    if (paciente.peso.length == 0 ) {
         erros.push("O peso não pode ser em branco");
     }
 
-    if (paciente.altura.length == 0) {
+    if (paciente.peso.lenght >= 280){
+        erros.push("O peso não pode ser maior e igual 280 kgs.");
+    }
+
+    if (paciente.altura.length == 0 ) {
         erros.push("A altura não pode ser em branco");
+    }
+
+    if(paciente.altura.lenght > 3.0){
+        erros.push("A altura não pode ser maior que 3 metros");
     }
 
     if (!validaPeso(paciente.peso)) {
