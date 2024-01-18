@@ -9,6 +9,7 @@ botaoAdicionar.addEventListener("click", function(event) {
     var erros = validaPaciente(paciente);
 
     if (erros.length > 0) {
+
         exibeMensagensDeErro(erros);
 
         return;
@@ -19,6 +20,7 @@ botaoAdicionar.addEventListener("click", function(event) {
     form.reset();
 
     var mensagensErro = document.querySelector("#mensagens-erro");
+
     mensagensErro.innerHTML = "";
 
 });
@@ -37,23 +39,22 @@ function obtemPacienteDoFormulario(form) {
 }
 
 function montaTr(paciente) {
+
     var pacienteTr = document.createElement("tr");
     pacienteTr.classList.add("paciente");
-
     pacienteTr.appendChild(montaTd(paciente.nome, "info-nome"));
     pacienteTr.appendChild(montaTd(paciente.peso, "info-peso"));
     pacienteTr.appendChild(montaTd(paciente.altura, "info-altura"));
     pacienteTr.appendChild(montaTd(paciente.gordura, "info-gordura"));
     pacienteTr.appendChild(montaTd(paciente.imc, "info-imc"));
-
     return pacienteTr;
 }
 
 function montaTd(dado, classe) {
+
     var td = document.createElement("td");
     td.classList.add(classe);
     td.textContent = dado;
-
     return td;
 }
 
@@ -61,8 +62,13 @@ function validaPaciente(paciente) {
 
     var erros = [];
 
-    if (paciente.nome.length == 0) {
+    if (paciente.nome.length == 0 ) {
         erros.push("O nome não pode ser em branco");
+    }
+
+    if (paciente.nome.lenght == ){
+
+        erros.push("O nome não pode ser um número :");
     }
 
     if (paciente.gordura.length == 0) {
@@ -89,6 +95,7 @@ function validaPaciente(paciente) {
 }
 
 function exibeMensagensDeErro(erros) {
+
     var ul = document.querySelector("#mensagens-erro");
     ul.innerHTML = "";
 
