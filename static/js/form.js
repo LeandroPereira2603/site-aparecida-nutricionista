@@ -1,5 +1,5 @@
-var botaoAdicionar = document.querySelector("#adicionar-paciente");
-botaoAdicionar.addEventListener("click", function(event) {
+    var botaoAdicionar = document.querySelector("#adicionar-paciente");
+    botaoAdicionar.addEventListener("click", function(event) {
     event.preventDefault();
 
     var form = document.querySelector("#form-adiciona");
@@ -66,7 +66,7 @@ function validaPaciente(paciente) {
         erros.push("O nome não pode ser em branco");
     }
 
-    if (paciente.nome.lenght == ){
+    if (isNumeric(paciente.nome)){
 
         erros.push("O nome não pode ser um número :");
     }
@@ -111,3 +111,9 @@ function adicionaPacienteNaTabela(paciente) {
     var tabela = document.querySelector("#tabela-pacientes");
     tabela.appendChild(pacienteTr);
 }
+
+
+function isNumeric(str) {
+    var er = /^[0-9]+$/;
+    return (er.test(str));
+  }
